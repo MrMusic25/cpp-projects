@@ -19,6 +19,7 @@ void pause() { cout << "Press [Enter] to continue..." << endl;  cin.ignore(); ci
 int main()
 {
 	cout << "Hello, world!" << endl;
+	return 0;
 }
 
 /* * * * * * *

@@ -22,8 +22,12 @@ int main()
 	cout << "Enter a number and press [Enter]: ";
 	cin >> num;
 
-	if (num < 0) num *= -1;
-	cout << "Absolute value of number is: " << num << endl;
+	/* if (num < 0) num *= -1;
+	cout << "Absolute value of number is: " << num << endl; */
+	
+	if (num >= 1 && num <= 100) { cout << "Number is within range." << endl; }
+	else { cout << "Number is outside of range." << endl; }
+
 	pause();
 	return 0;
 }
