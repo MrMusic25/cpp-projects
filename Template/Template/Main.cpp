@@ -14,12 +14,11 @@ using namespace std;
  * Function Prototypes *
  * * * * * * * * * * * */
 
-
+void pause() { cout << "Press [Enter] to continue..." << endl;  cin.ignore(); cin.get(); }
 
 int main()
 {
 	cout << "Hello, world!" << endl;
-	return 0;
 }
 
 /* * * * * * *
