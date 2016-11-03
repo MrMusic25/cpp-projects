@@ -1,3 +1,6 @@
 ﻿  Main.cpp
+c:\users\kyle\source\repos\cpp-projects\week4\week4\main.cpp(39): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\kyle\source\repos\cpp-projects\week4\week4\main.cpp(40): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\kyle\source\repos\cpp-projects\week4\week4\main.cpp(41): warning C4305: '=': truncation from 'double' to 'float'
   Week4.vcxproj -> C:\Users\Kyle\Source\Repos\cpp-projects\Week4\Debug\Week4.exe
   Week4.vcxproj -> C:\Users\Kyle\Source\Repos\cpp-projects\Week4\Debug\Week4.pdb (Full PDB)
