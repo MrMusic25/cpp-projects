@@ -27,3 +27,6 @@
 *.exe
 *.out
 *.app
+/Week7/Week7/Debug/Week7.tlog
+*.db
+/Week7/Week7.VC.VC.opendb
