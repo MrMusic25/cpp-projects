@@ -1,0 +1,4 @@
+﻿  Project10.cpp
+c:\users\kyle\source\repos\cpp-projects\project10\project10\project10.cpp(43): warning C4018: '<=': signed/unsigned mismatch
+c:\users\kyle\source\repos\cpp-projects\project10\project10\project10.cpp(57): warning C4018: '<=': signed/unsigned mismatch
+  Project10.vcxproj -> C:\Users\Kyle\Source\Repos\cpp-projects\Project10\Debug\Project10.exe
