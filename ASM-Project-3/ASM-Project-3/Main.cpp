@@ -22,7 +22,7 @@ int main()
 	inFile.close();
 	
 	sort(integers, itemCount);
-	outFile.open(outputFile, ofstream::out | ofstream::app); // Append
+	outFile.open(outputFile, ofstream::app); // Append
 	print(outFile, integers, itemCount);
 	outFile.close();
 
@@ -32,9 +32,9 @@ int main()
 // Output file, array of integers, total number of integers in file
 void print(ofstream& outFile, int integers[], int itemCount)
 {
-	for (int k = 0; k >= itemCount; k++)
+	for (int k = 0; k <= itemCount; k++)
 	{
-		outFile << integers[k];
+		outFile << integers[k] << endl;
 	}
 }
 
@@ -54,10 +54,9 @@ int read(ifstream& inFile, int integers[], int arraySize)
 // Array of integers, and the total number of integers from the input file
 void sort(int integers[], int itemCount)
 {
-	int pos;
+	int pos = 0;
 	int smallpos;
-	pos = 0;
-	while (pos < itemCount - 1) {
+	while (pos <= itemCount) {
 		smallpos = findSmallest(integers, pos, itemCount);
 		swap(integers, pos, smallpos);
 		pos = pos + 1;
