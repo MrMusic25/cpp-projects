@@ -59,7 +59,7 @@ void sort(int integers[], int itemCount)
 	while (pos <= itemCount) {
 		smallpos = findSmallest(integers, pos, itemCount);
 		swap(integers, pos, smallpos);
-		pos = pos + 1;
+		pos++;
 	}
 }
 
