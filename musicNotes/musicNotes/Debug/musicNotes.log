@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\mrmus\source\repos\cpp-projects\musicnotes\musicnotes\source.cpp(40): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+  musicNotes.vcxproj -> C:\Users\mrmus\Source\Repos\cpp-projects\musicNotes\Debug\musicNotes.exe
+  musicNotes.vcxproj -> C:\Users\mrmus\Source\Repos\cpp-projects\musicNotes\Debug\musicNotes.pdb (Partial PDB)
